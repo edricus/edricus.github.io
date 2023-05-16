@@ -1,5 +1,4 @@
 * {
-    font-family: 'Roboto Slab'; 
     margin: 0;
     padding: 0;
 }
@@ -8,17 +7,17 @@ body {
 }
 
 header {
-    overflow: hidden;
+    position: sticky;
+    top: 0; 
     background-color: #d8dee9;
     text-align: right;
     padding-right: 12px;
 }
-header li { 
+header li {
     text-transform: uppercase;
     display: inline-block;
     font-size: 15px;
     padding: 5px;
-
 }
 header li:hover {
     background-color: #a3be8c;
@@ -35,20 +34,72 @@ a:hover {
 h1 {
     padding-top: 1em;
     color: #3b4252;
-    font-size: 42px
+    font-size: 38px;
+    text-transform: uppercase;
 }
 
 .title {
     background-color: #eceff4;
+    font-family: 'Roboto Slab'; 
 }
+
 .tea-images {
     padding-top: 20px;
     display: block;
 }
-img {
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tea-image-box {
     padding: 50px;
-    margin: 10px;
-    border: solid 1px #81a1c193;
-    box-shadow: 1px 3px 3px #3b42522c ;
-    
+}
+.tea-image {
+    padding: 0px 10px 0 10px;
+}
+
+.tea-text-box {
+    padding: 40px 10px 10px 40px;
+}
+.tea-text {
+    padding: 0px 10px 0px 10px;
+    font-family: 'Roboto Slab';
+    color:#4c566a;
+    font-size: 35px;
+}
+.tea-subtext {
+    padding: 0px 10px 0px 10px;
+    font-size: 11px; 
+    color: #4c566a;
+}
+.tea-desc {
+    padding: 20px 10px 0px 10px; 
+    text-decoration: dashed;
+    color: #434c5e;
+}
+.tea-price {
+    font-family: 'Roboto Slab';
+    padding: 170px 10px 0px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #d08770
+}
+.tea-price-alt {
+    padding: 0px 10px 0px 10px;
+    font-size: 11px;
+    font-style: italic;
+    color:#4c566a;
+}
+.contact-title-box {
+    padding : 35px 0px 20px 60px;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+}
+.contact-form-box {
+    padding : 0px 0px 20px 60px;
+    font-family: 'Roboto Slab';
+    font-weight: 100;
 }
